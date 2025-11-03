@@ -1,0 +1,24 @@
+{
+  "name": "swag-labs-automation-cypress",
+  "version": "1.0.0",
+  "description": "Automated end-to-end test project developed to validate the main user flows of the **Swag Labs** demo e-commerce application using **Cypress**.  \r This project is part of my **QA portfolio**, showcasing skills in **test automation, JavaScript, and agile testing practices**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoKR/swag-labs-automation-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EnzoKR/swag-labs-automation-cypress/issues"
+  },
+  "homepage": "https://github.com/EnzoKR/swag-labs-automation-cypress#readme",
+  "devDependencies": {
+    "cypress": "^15.5.0"
+  }
+}
