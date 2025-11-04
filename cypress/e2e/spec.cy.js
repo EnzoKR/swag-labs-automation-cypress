@@ -1,5 +1,13 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('/') // visit base URl configured in "cypress.config.js"
-  })
+describe('Login test', () => {
+
+    before(() => {
+        cy.visit('/') // visit base URl configured in "cypress.config.js"
+    })
+
+    it('Valid Login', () => {
+        cy.Login('standard_user', 'secret_sauce')
+        cy.url().should('include', '/inventory.html')
+
+    })
+
 })
