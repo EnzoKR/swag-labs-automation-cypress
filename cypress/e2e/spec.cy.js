@@ -10,4 +10,10 @@ describe('Login test', () => {
 
     })
 
+    it('invalid Login', () => {
+        cy.Login('standard_user_test', 'secret_sauce')
+        cy.url().should('include', '/inventory.html')
+
+    })
+
 })

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.885" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-11-14T20:06:39" tests="0" file="cypress\e2e\spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login test" timestamp="2025-11-14T20:06:39" tests="2" time="12.882" failures="1">
+    <testcase name="Login test Valid Login" time="2.584" classname="Valid Login">
+    </testcase>
+    <testcase name="Login test invalid Login" time="0.000" classname="invalid Login">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `[data-test=&quot;username&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-test="username"]`, but never found it.
+    at Context.eval (webpack://swag-labs-automation-cypress/./cypress/support/commands/login.js:3:9)
+    at wrapped (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:145569:43)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
